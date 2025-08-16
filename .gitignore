@@ -15,3 +15,46 @@ frontend/.vite/
 # OS
 .DS_Store
 Thumbs.db
+
+# deps
+node_modules/
+
+# build output
+dist/
+.vite/
+
+# caches
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+
+# tests
+coverage/
+
+# env files (keep example files tracked)
+.env
+.env.local
+.env.development*
+.env.production*
+.env.test*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# editor/project files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+
+# OS cruft
+.DS_Store
+Thumbs.db
